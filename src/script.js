@@ -187,8 +187,8 @@ const tick = () => {
   const deltaTime = elapsedTime - previousTime;
   previousTime = elapsedTime;
 
+  // Carame and giving
   camera.position.y = (-scrollY / sizes.height) * objectDistance;
-
   const parallaxX = cursor.x;
   const parallaxY = cursor.y;
 
